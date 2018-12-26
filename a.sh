@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo apt install steghide
 sudo apt install binwalk
+sudo apt install default-jre
 sudo apt install libmpc-dev
 sudo apt install libpfr-dev
 sudo apt install libgmp3-dev
@@ -15,9 +16,9 @@ sudo apt install pypy3
 sudo apt install burpsuite
 wget 'http://www.caesum.com/handbook/Stegsolve.jar' -O stegsolve.jar
 wget 'https://out7.hex-rays.com/files/idafree70_linux.run' -O idafree.run
-sudo python -m pip pycrypto
-sudo python -m pip pwntools
-sudo python -m pip gmpy2
+sudo python -m pip install pycrypto
+sudo python -m pip install pwntools
+sudo python -m pip install gmpy2
 chmod +x stegsolve.jar
 chmod +x idafree.run
 ./stegsolve.jar
