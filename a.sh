@@ -25,9 +25,9 @@ sudo python -m pip install pwntools
 sudo python -m pip install gmpy2
 chmod +x stegsolve.jar
 chmod +x idafree.run
-./stegsolve.jar
-./idafree.run
 sudo python3 -m pip install pycryptodome
 git clone https://github.com/longld/peda.git ~/peda
 echo "source ~/peda/peda.py" >> ~/.gdbinit
 wget 'https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt' -o rockyou.txt
+#java -jar stegsolve.jar
+./idafree.run
