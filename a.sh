@@ -18,6 +18,8 @@ sudo apt install wireshark
 sudo apt install pypy
 sudo apt install pypy3
 sudo apt install burpsuite
+sudo apt install python-pip
+sudo apt install python3-pip
 wget 'http://www.caesum.com/handbook/Stegsolve.jar' -O stegsolve.jar
 wget 'https://out7.hex-rays.com/files/idafree70_linux.run' -O idafree.run
 sudo python -m pip install pycrypto
